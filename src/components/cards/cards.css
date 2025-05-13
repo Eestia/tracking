@@ -5,12 +5,12 @@
   height: 260px;
   border-radius: 17px;
   position: relative;
-  overflow: hidden; /* important pour masquer ce qui dépasse */
+  overflow: hidden; 
 }
 .card-icon {
   position: absolute;    
   right: 20px;
-  width: 80px;       /* facultatif pour un effet discret */
+  width: 80px;      
   z-index: 0;
 }
 .card-in {
@@ -21,7 +21,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 1; /* doit être au-dessus de l'icône */
+  z-index: 1; 
 }
 .card-in:hover {
     background-color: rgb(52, 57, 123);
