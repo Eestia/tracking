@@ -8,7 +8,7 @@
   overflow: hidden; /* important pour masquer ce qui dépasse */
 }
 .card-icon {
-  position: absolute;         /* ← fait dépasser vers le haut */
+  position: absolute;    
   right: 20px;
   width: 80px;       /* facultatif pour un effet discret */
   z-index: 0;
