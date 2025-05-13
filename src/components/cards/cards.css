@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Coiny&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@300&family=Lexend:wght@518&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.card {
+  width: 270px;
+  height: 260px;
+  border-radius: 17px;
+  position: relative;
+  overflow: hidden; /* important pour masquer ce qui dépasse */
+}
+.card-icon {
+  position: absolute;         /* ← fait dépasser vers le haut */
+  right: 20px;
+  width: 80px;       /* facultatif pour un effet discret */
+  z-index: 0;
+}
+.card-in {
+  background-color: rgb(29, 32, 75);
+  border-radius: 17px;
+  position: absolute;
+  top: 55px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1; /* doit être au-dessus de l'icône */
+}
+.card-in:hover {
+    background-color: rgb(52, 57, 123);
+}
+.titre{
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white ;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.titre img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.card-center h1{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.card-center h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: rgb(171, 176, 242);
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-bottom: 22px;
+}
