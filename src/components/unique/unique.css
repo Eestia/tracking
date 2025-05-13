@@ -45,13 +45,16 @@
     font-size: 20px;
     margin-left: 23px;
     margin-top: 20px;
+    color: rgb(99, 102, 165);
+    transition: 0.2s ease;
 }
 #weekly{
     font-size: 20px;
     margin-left: 23px;
     margin-top: 20px;
     padding-bottom: 0px;
-    color: white;
+    color: rgb(99, 102, 165);
+    transition: 0.2s ease;
 }
 #monthly{
     font-size: 20px;
@@ -60,4 +63,14 @@
     margin-left: 23px;
     padding: 0px;
     color: rgb(99, 102, 165);
+    transition: 0.2s ease;
+}
+#daily:hover{
+    color: white;
+}
+#weekly:hover{
+    color: white;
+}
+#monthly:hover{
+    color: white;
 }
