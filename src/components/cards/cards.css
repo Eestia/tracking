@@ -64,3 +64,31 @@
     margin-left: 20px;
     padding-bottom: 22px;
 }
+@media screen and (max-width: 426px){
+.card {
+  width: 235px;
+  height: 150px;
+}
+.titre img{
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.card-center h1{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.card-center h3{
+    font-size: 12px;
+    padding-bottom: 32px;
+}
+.card-center{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.titre{
+    padding-top: 3px;
+}
+}
+    
