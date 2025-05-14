@@ -1,6 +1,6 @@
 {
-  "homepage": "https://eestia.github.io/tracking/",
   "name": "tracking",
+  "homepage": "https://eestia.github.io/tracking/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
